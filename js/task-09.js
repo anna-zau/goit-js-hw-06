@@ -11,7 +11,6 @@ const refs = {
 refs.buttonChange.addEventListener("click", onClickButtonColorChange);
 
 function onClickButtonColorChange() {
-  console.log("click on me baby");
 
   refs.body.style.backgroundColor = `${getRandomHexColor()}`;
   refs.colorLabel.textContent = refs.body.style.backgroundColor;
